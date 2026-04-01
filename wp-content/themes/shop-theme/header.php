@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
             wp_nav_menu([
                 'theme_location' => 'primary',
                 'container' => false,
-                'fallback_cb' => false,
+                'fallback_cb' => 'shop_theme_fallback_menu',
             ]);
             ?>
         </nav>
